@@ -8,7 +8,7 @@ server:
 spring:
   profiles: dev
   application:
-      name: parentproject-springcloud-config-client-6001
+      name: parentproject-springcloud-config-client-5002
 eureka: 
   client: 
     service-url: 
@@ -19,7 +19,7 @@ server:
 spring:
   profiles: test
   application:
-      name: parentproject-springcloud-config-client-6001
+      name: parentproject-springcloud-config-client-5002
 eureka: 
   client: 
     service-url: 
