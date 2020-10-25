@@ -1,15 +1,15 @@
 spring: 
   profiles:
     active:
-      -dev
+    - dev
 ---
 spring:
   profiles: dev #开发环境
-  application
+  application:
       name: springcloud_config_dev #需要从github上读取的资源名称，注意没有yml后缀名
 --- 
 spring:
   profiles: test #测试环境
-  application
+  application:
       name: springcloud_config_test #需要从github上读取的资源名称，注意没有yml后缀名
-####注意文档保存编码必须为utf-8,否则会出现中文乱码的问题
+####注意文档保存编码必须为utf-8,否则会出现中文乱码的问题  
